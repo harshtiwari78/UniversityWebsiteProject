@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs For 2023</h1>
+    </section>
+
+<!-- ---------blog page content---------- -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">\
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Certificates & Online Programs For 2023</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero commodi quaerat molestiae voluptatem, placeat voluptas odit in fugit reiciendis? Enim illo, aperiam inventore dolorem ad esse quasi explicabo, iste rerum impedit assumenda corporis cum, accusamus voluptatibus autem sunt laudantium praesentium eligendi numquam odio? Recusandae obcaecati eius culpa praesentium consectetur<br><br><br>officiis, eos deleniti id assumenda, fugit ducimus placeat magni necessitatibus perferendis magnam voluptate exercitationem tempora in illo autem quas nobis odit. Nesciunt ex illum exercitationem perspiciatis, porro ipsa ut ullam debitis nobis in maiores reiciendis reprehenderit, animi labore neque temporibus aperiam ducimus ratione aspernatur magni iure delectus sed? Corrupti dolorum dolores mollitia iure, soluta excepturi repellat aliquam praesentium sequi ab, deserunt consectetur, et iusto odio? Vitae, dolor. Ex voluptatum vel culpa fuga fugiat dicta, amet eius at quos tempore, suscipit tenetur ad, soluta natus. Temporibus, obcaecati fugiat quod nesciunt aliquam quisquam soluta ab aut quidem ad expedita, provident aliquid consequuntur harum! Alias, quia! Dolor, facere animi accusamus nulla repellendus blanditiis nesciunt. Sed saepe, minus minima, itaque delectus, maxime a ea sint est <br><br><br>quas nam deserunt officiis esse hic aspernatur provident perferendis aperiam dolores. Ea vero dignissimos voluptatum accusantium illo sequi nostrum quasi laboriosam ut eligendi, ipsum recusandae blanditiis saepe rerum, neque inventore impedit voluptatibus dolorum autem consectetur sunt qui nulla minus fugit? Tempora eveniet modi esse omnis. Dolorum quibusdam id sed! Ullam, doloribus neque nam harum adipisci facilis eveniet minus quae consequatur. Vitae unde perferendis velit ut eius est illum nam dolorem? Fuga ducimus dolore placeat libero <br><br><br>iste error asperiores atque explicabo optio? Explicabo voluptas quam reiciendis modi quae laboriosam maxime, expedita, laborum repellendus, beatae iste eveniet ducimus exercitationem. Sed neque quis dicta voluptas accusantium corporis, consectetur, magni eaque distinctio mollitia eum explicabo officiis accusamus ab, quaerat omnis! Quod iusto, corporis nulla ea error dignissimos delectus voluptates, dolore ullam quas asperiores aliquid exercitationem! Ab iste quidem, soluta velit omnis fuga repellat! Nam quis vero excepturi quaerat consequuntur modi, odit rerum, dolore consectetur vitae provident.</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+            </form>
+        </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+            <span>Business Analytics</span>
+            <span>28</span>
+            </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>17</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>47</span>
+        </div>
+        <div>
+            <span>Journalism</span>
+            <span>18</span>
+        </div>
+        <div>
+            <span>AutoCAD</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>12</span>
+        </div>
+        </div>
+    </div>
+</section>
+
+   
+    
+
+
+
+
+    
+
+
+
+
+<!-- ---------Footer---------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptatem consequatur<br>quos itaque, assumenda sequi ea incidunt explicabo quasi.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Harsh</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------JavaScript for Toggle Menu---------- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+
+</body>
+</html>
